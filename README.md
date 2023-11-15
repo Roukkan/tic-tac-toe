@@ -4,6 +4,17 @@ This project is a simple implementation of the Tic Tac Toe game using TypeScript
 
 ## Project Structure
 
+tic-tac-toe/
+│
+├── src/
+│ ├── components/
+│ │ ├── Board.tsx # React component for the game board
+│ │ ├── Game.tsx # React component for the game logic
+│ │ └── SquareButton.tsx # React component for the square button
+│ └── index.tsx # Entry point for React frontend
+│
+└── README.md
+
 - **src/components**: React components for the game logic and UI.
   - **Board.tsx**: Component for the game board.
   - **Game.tsx**: Component for the game logic.
